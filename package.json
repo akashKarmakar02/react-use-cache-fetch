@@ -1,0 +1,27 @@
+{
+  "name": "react-use-cache-fetch",
+  "version": "1.0.2",
+  "description": "A tiny light-weight library for react which cache GET fetch calls. provides api for deleting specific cache.",
+  "main": "./lib/index.js",
+  "keywords": [
+    "react",
+    "fetch",
+    "cache",
+    "react cache",
+    "cache get requests",
+    "delete specific cache"
+  ],
+  "scripts": {
+    "build": "tsc ./src/index.ts"
+  },
+  "author": "akashKarmakar02",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
